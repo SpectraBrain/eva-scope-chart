@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  eva-scope:
+  - apiVersion: v2
+    appVersion: 3.1.0
+    created: "2026-08-13T08:47:40.885054568+09:00"
+    description: EVA Scope dashboard runtime (Backend, Frontend and HTTPS proxy)
+    digest: cbfa473b9db205ea162a008e891e004a38e8e2a71e07fab99b828d736f96dc43
+    name: eva-scope
+    type: application
+    urls:
+    - https://spectrabrain.github.io/eva-scope-chart/eva-scope-3.1.0.tgz
+    version: 3.1.0
+generated: "2026-08-13T08:47:40.884277844+09:00"
