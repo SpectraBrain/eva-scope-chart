@@ -2,8 +2,23 @@ apiVersion: v1
 entries:
   eva-scope:
   - apiVersion: v2
+    appVersion: 3.1.2-rc.2
+    created: "2026-08-27T11:43:31.606351279+09:00"
+    dependencies:
+    - condition: clickhouse.enabled
+      name: clickhouse
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.4.4
+    description: EVA Scope dashboard runtime with optional in-cluster ClickHouse
+    digest: 796d2862275866b061b0ba3551775a907ba6329700c4eec1db2cee0a6722221b
+    name: eva-scope
+    type: application
+    urls:
+    - https://SpectraBrain.github.io/eva-scope-chart/eva-scope-3.1.2-rc.2.tgz
+    version: 3.1.2-rc.2
+  - apiVersion: v2
     appVersion: 3.1.2-rc.1
-    created: "2026-08-27T10:11:15.429410553+09:00"
+    created: "2026-08-27T11:43:31.600616673+09:00"
     description: EVA Scope dashboard runtime (Backend, Frontend and HTTPS proxy)
     digest: ee0bb735f4b87393394a4f24311f42ec56c24143c27fc38dd900205a37f88084
     name: eva-scope
@@ -13,7 +28,7 @@ entries:
     version: 3.1.2-rc.1
   - apiVersion: v2
     appVersion: 3.1.1-rc.1
-    created: "2026-08-27T10:11:15.428540388+09:00"
+    created: "2026-08-27T11:43:31.597051123+09:00"
     description: EVA Scope dashboard runtime (Backend, Frontend and HTTPS proxy)
     digest: e8c182ab657584a04ac5ca250596a082013b8c412656e9566f90c0b4dffb29e2
     name: eva-scope
@@ -23,7 +38,7 @@ entries:
     version: 3.1.1-rc.1
   - apiVersion: v2
     appVersion: 3.1.0
-    created: "2026-08-27T10:11:15.427740335+09:00"
+    created: "2026-08-27T11:43:31.595997193+09:00"
     description: EVA Scope dashboard runtime (Backend, Frontend and HTTPS proxy)
     digest: cbfa473b9db205ea162a008e891e004a38e8e2a71e07fab99b828d736f96dc43
     name: eva-scope
@@ -31,4 +46,4 @@ entries:
     urls:
     - https://SpectraBrain.github.io/eva-scope-chart/eva-scope-3.1.0.tgz
     version: 3.1.0
-generated: "2026-08-27T10:11:15.426981268+09:00"
+generated: "2026-08-27T11:43:31.595081703+09:00"
